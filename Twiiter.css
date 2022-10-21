@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    height: 800px;
+}
+.first-column{
+    position: relative;
+}
+.twitter-logo{
+    position: absolute;
+    left: 200px;
+    width: 350px;
+    top: 220px;
+}
+.Twitter {
+    display: flex;
+    flex-direction: row;
+}
+
+.twiiter-image {
+    width: 730px;
+    height: 730px;
+    object-fit: cover;
+}
+
+.icon-class {
+    width: 49px;
+    height: 49px;
+    padding-left: 37px;
+    margin-bottom: 0;
+}
+
+.second-column {
+    margin-top: 35px;
+    width: 50%;
+    border-bottom: 1px;
+
+}
+
+.head-text {
+    padding-left: 6%;
+    font-size: 70px;
+    font-family: Inter Tight;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+.join-line {
+    padding-left: 6%;
+    font-family: Inter Tight;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.first-search {
+    margin-left: 6%;
+    border: 1px solid lightgrey;
+    padding: 10px 35px;
+    width: 230px;
+    border-radius: 25px;
+    font-family: roboto;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 15px;
+    background-color: white;
+    transition: background-color 0.5s;
+    outline: none;
+
+}
+/* .first-search[type=text]:focus{
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+} */
+.tooltip-icon-google {
+    position: relative;
+}
+
+.google-icon {
+    position: absolute;
+    width: 22px;
+    left: 45px;
+    top: 9px;
+}
+
+.second-apple {
+    margin-left: 6%;
+    border: 1px solid lightgrey;
+    margin-top: 15px;
+    padding: 10px 35px;
+    padding-left: 50px;
+    width: 300px;
+    border-radius: 25px;
+    font-family: roboto;
+    font-weight: 500;
+    background-color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+    transition: background-color 0.5s,color 0.5s;
+    cursor: pointer;
+}
+.second-apple:hover{
+    color: white;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+.tooltip-icon-apple{
+    position: relative;
+}
+.apple-icon{
+    position: absolute;
+    width: 22px;
+    left: 110px;
+    top: 22px;
+} 
+.line{
+    margin-left: 10%;
+    font-family: roboto;
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    opacity: 5;
+}
+.third-search{
+    margin-left: 6%;
+    border: 1px solid lightgrey;
+    margin-top: 15px;
+    padding: 12px 35px;
+    padding-left: 40px;
+    width: 300px;
+    border-radius: 25px;
+    font-family: roboto;
+    font-weight: 500;
+    background-color: rgb(94, 164, 245);
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+    transition: background-color 0.5s,color 0.5s;
+    cursor: pointer;
+}
+.third-search:hover{
+    background-color: white;
+    color: rgb(94, 164, 245);
+}
+.policy{
+    margin-left: 6%;
+    width: 300px;
+    font-size: 11px;
+    font-family: roboto;
+}
+.blue{
+    color:rgb(94, 164, 245);
+}
+.already{
+    margin-left: 6%;
+    margin-top: 60px;
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+.sign-in{
+    margin-left: 6%;
+    border: 1px solid lightgrey;
+    margin-top: 15px;
+    padding: 12px 35px;
+    padding-left: 40px;
+    width: 300px;
+    border-radius: 25px;
+    font-family: roboto;
+    font-weight: 500;
+    background-color: white;
+    color:rgb(94, 164, 245);
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.sign-in:hover{
+    background-color: rgb(212, 231, 255);
+}
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    font-family: roboto;
+    font-size: 13px;
+    word-spacing: 13px;
+    line-height: 25px;
+}
